@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Amora Nails🩷 
-</title>
+  <title>Amora Nails🩷</title>
 
   <style>
     *{
@@ -24,20 +23,19 @@
     }
 
     .title-box{
-    display:flex;
-    align-items:center;
-    gap:18px;
-    margin-bottom:25px;
+      display:flex;
+      align-items:center;
+      gap:18px;
+      margin-bottom:25px;
     }
 
-.logo{
-  width:250px;
-  height:250px;
-  border-radius:50%;
-  object-fit:cover;
-  box-shadow:0 4px 15px rgba(0,0,0,0.12);
-}
-
+    .logo{
+      width:250px;
+      height:250px;
+      border-radius:50%;
+      object-fit:cover;
+      box-shadow:0 4px 15px rgba(0,0,0,0.12);
+    }
 
     .container{
       width:100%;
@@ -181,24 +179,16 @@
     <div class="badge">
       ✨ Encuesta rápida
     </div>
-<img 
-    src="amora.jpeg" 
 
-    class="logo"
-  >
+    <img src="amora.jpeg" class="logo">
+
     <h1>
       Tu opinión es importante para nosotros
     </h1>
 
-    <div class="title-box">
-
-  
-
-
-</div>
-
     <div class="card">
-<form action="https://api.web3forms.com/submit" method="POST">
+
+      <form action="https://api.web3forms.com/submit" method="POST">
 
         <input type="hidden" name="access_key" value="f130b824-dca3-4755-bdc3-37f4741ad60e">
 
@@ -219,7 +209,7 @@
           <div class="options">
 
             <div class="option">
-              <input type="radio" name="trabajadora" id="fernanda" value="Fernanda">
+              <input type="radio" name="trabajadora" id="fernanda" value="Fernanda" required>
               <label for="fernanda">Fernanda</label>
             </div>
 
@@ -257,7 +247,7 @@
           <div class="options">
 
             <div class="option">
-              <input type="radio" name="tiempo" id="si-tiempo" value="Sí">
+              <input type="radio" name="tiempo" id="si-tiempo" value="Sí" required>
               <label for="si-tiempo">Sí</label>
             </div>
 
@@ -280,7 +270,7 @@
           <div class="options">
 
             <div class="option">
-              <input type="radio" name="calificacion" id="excelente" value="Excelente">
+              <input type="radio" name="calificacion" id="excelente" value="Excelente" required>
               <label for="excelente">Excelente</label>
             </div>
 
@@ -303,94 +293,94 @@
         </div>
 
         <div class="question">
-  <label>¿Cumplimos tus expectativas?</label>
+          <label>¿Cumplimos tus expectativas?</label>
 
-  <div class="options">
+          <div class="options">
 
-    <div class="option">
-      <input type="radio" name="expectativas" id="encanto" value="Sí, me encantó">
-      <label for="encanto">Sí, me encantó</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="expectativas" id="encanto" value="Sí, me encantó" required>
+              <label for="encanto">Sí, me encantó</label>
+            </div>
 
-    <div class="option">
-      <input type="radio" name="expectativas" id="regular2" value="Regular">
-      <label for="regular2">Regular</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="expectativas" id="regular2" value="Regular">
+              <label for="regular2">Regular</label>
+            </div>
 
-    <div class="option">
-      <input type="radio" name="expectativas" id="nogusto" value="No le gustó">
-      <label for="nogusto">No, no me gustó</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="expectativas" id="nogusto" value="No le gustó">
+              <label for="nogusto">No, no me gustó</label>
+            </div>
 
-  </div>
-</div>
+          </div>
+        </div>
 
-<div class="question">
-  <label>¿Te sentiste bien atendida durante tu visita?</label>
+        <div class="question">
+          <label>¿Te sentiste bien atendida durante tu visita?</label>
 
-  <div class="options">
+          <div class="options">
 
-    <div class="option">
-      <input type="radio" name="atencion" id="atencion-si" value="Sí">
-      <label for="atencion-si">Sí</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="atencion" id="atencion-si" value="Sí" required>
+              <label for="atencion-si">Sí</label>
+            </div>
 
-    <div class="option">
-      <input type="radio" name="atencion" id="atencion-no" value="No">
-      <label for="atencion-no">No</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="atencion" id="atencion-no" value="No">
+              <label for="atencion-no">No</label>
+            </div>
 
-  </div>
-</div>
+          </div>
+        </div>
 
-<div class="question">
-  <label>¿Te ofrecieron alguna bebida?</label>
+        <div class="question">
+          <label>¿Te ofrecieron alguna bebida?</label>
 
-  <div class="options">
+          <div class="options">
 
-    <div class="option">
-      <input type="radio" name="bebida" id="bebida-si" value="Sí">
-      <label for="bebida-si">Sí</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="bebida" id="bebida-si" value="Sí" required>
+              <label for="bebida-si">Sí</label>
+            </div>
 
-    <div class="option">
-      <input type="radio" name="bebida" id="bebida-no" value="No">
-      <label for="bebida-no">No</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="bebida" id="bebida-no" value="No">
+              <label for="bebida-no">No</label>
+            </div>
 
-  </div>
-</div>
+          </div>
+        </div>
 
-<div class="question">
-  <label>¿Cómo te enteraste de nosotros?</label>
+        <div class="question">
+          <label>¿Cómo te enteraste de nosotros?</label>
 
-  <div class="options">
+          <div class="options">
 
-    <div class="option">
-      <input type="radio" name="origen" id="instagram" value="Instagram">
-      <label for="instagram">Instagram</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="origen" id="instagram" value="Instagram" required>
+              <label for="instagram">Instagram</label>
+            </div>
 
-    <div class="option">
-      <input type="radio" name="origen" id="tiktok" value="TikTok">
-      <label for="tiktok">TikTok</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="origen" id="tiktok" value="TikTok">
+              <label for="tiktok">TikTok</label>
+            </div>
 
-    <div class="option">
-      <input type="radio" name="origen" id="recomendacion" value="Recomendación">
-      <label for="recomendacion">Recomendación</label>
-    </div>
+            <div class="option">
+              <input type="radio" name="origen" id="recomendacion" value="Recomendación">
+              <label for="recomendacion">Recomendación</label>
+            </div>
 
-  </div>
-</div>
+          </div>
+        </div>
 
         <div class="question">
           <label>¿Qué te pareció el servicio de recepción?</label>
-          <textarea name="recepcion" placeholder="Escribe aquí..."></textarea>
+          <textarea name="recepcion" placeholder="Escribe aquí..." required></textarea>
         </div>
 
         <button type="submit">
-          Enviar respuestas 
+          Enviar respuestas
         </button>
 
       </form>
@@ -401,3 +391,4 @@
 
 </body>
 </html>
+```
